@@ -34,7 +34,7 @@ const questions = [
         type: "input",
         name: "test",
         message: "Will the user need to perform any tests before using this app?",
-        default: "If No click Enter",
+        default: "npm test",
     },
     {
         type: "list",
@@ -43,18 +43,18 @@ const questions = [
         choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause 'Simplified' License",
         "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Eclipse Public License"] 
     },
-    // {
-    //     type: "input",
-    //     name: "github",
-    //     message: "What is your Github username?",
+    {
+        type: "input",
+        name: "github",
+        message: "What is your Github username?",
         
-    // },
-    // {
-    //     type: "input",
-    //     name: "email",
-    //     message: "What is your email?",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email?",
         
-    // },
+    },
 
 ];
 
@@ -69,13 +69,14 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquire.prompt(questions).then((answers) => {
-        console.log(answers)
-        let readme = `Project Title: ${answers.projectTitle}, Project License: ${answers.license},
-        Description: ${answers.description}, Installation: ${answers.installation}
+        // console.log(answers)
+        writeToFile("README.md", generateMarkdown(answers))
+        // let readme = `Project Title: ${answers.projectTitle}, Project License: ${answers.license},
+        // Description: ${answers.description}, Installation: ${answers.installation}
         
-        `
-        console.log(readme)
-        writeToFile("README.md", generateMarkdown(answers));
+        // `
+        // console.log(readme)
+        // writeToFile("README.md", generateMarkdown(answers));
     });
     }
 
