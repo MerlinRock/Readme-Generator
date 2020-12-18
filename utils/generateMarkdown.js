@@ -14,21 +14,21 @@ function generateMarkdown(data) {
 
     \n ## Description
 
-    \n${data.description}
+    \n ${data.description}
 
     \n ## Installation
 
-    \n${data.installation}
+    \n ${data.installation}
 
     \n ## Usage
 
-    \n${data.useage}
+    \n ${data.useage}
 
     \n ### Screen Shots
       
     \n ## Contributors
 
-    \n${data.contributing}
+    \n ${data.contributing}
 
     \n ## Tests
 
