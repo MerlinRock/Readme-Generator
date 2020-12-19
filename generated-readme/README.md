@@ -3,7 +3,7 @@
 
 Watch README.md Generator Video
 
-[![Watch the video](https://static-s.aa-cdn.net/img/ios/1059854241/fed71d8194c9bdffd6d4edac1a13e517?v=1)](https://docs.google.com/presentation/d/1jvLa3K9yj2aiQVMNTMgBJboDwf2vbHlyo3O4g2LrhdQ/edit?usp=sharing)
+[![Watch the video](https://static-s.aa-cdn.net/img/ios/1059854241/fed71d8194c9bdffd6d4edac1a13e517?v=1)](https://youtu.be/gB6FojzhS6k)
 
     
  ### Liscense
