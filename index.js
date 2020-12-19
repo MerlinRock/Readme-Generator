@@ -9,6 +9,7 @@ const questions = [
         type: "input",
         name: "projectTitle",
         message: "What's the name of your project?",
+        default: "My Project"
     },
     {
         type: "input",
@@ -16,9 +17,10 @@ const questions = [
         message: "Please describe your project.",
     },
     {
-        type: "confirm",
+        type: "input",
         name: "installation",
         message: "Are any installations required to run this application?.",
+        default: "npm i"
     },
     {
         type: "input",
@@ -52,8 +54,15 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "What is your email?",
-        
+        message: "What is your email address?",
+        validate: function (value) {
+            let mail = value.match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+            if (mail) {
+                return true;
+            } else {
+                return "Please enter a valid Email address"
+            }
+        }
     },
 
 ];
@@ -71,12 +80,6 @@ function init() {
     inquire.prompt(questions).then((answers) => {
         // console.log(answers)
         writeToFile("README.md", generateMarkdown(answers))
-        // let readme = `Project Title: ${answers.projectTitle}, Project License: ${answers.license},
-        // Description: ${answers.description}, Installation: ${answers.installation}
-        
-        // `
-        // console.log(readme)
-        // writeToFile("README.md", generateMarkdown(answers));
     });
     }
 

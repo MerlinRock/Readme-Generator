@@ -2,8 +2,9 @@
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
-    ### Liscense
+    \n ### Liscense
     \n ${data.license}
+
     \n ## Table of Contents
     \n- [Description](#Description)
     \n- [Installation](#Installation)
@@ -24,7 +25,7 @@ function generateMarkdown(data) {
 
     \n ${data.useage}
 
-    \n ### Screen Shots
+    \n ## Screen Shots
       
     \n ## Contributors
 
