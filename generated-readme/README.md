@@ -1,85 +1,92 @@
-# README.md Generator
+# My Project
 
+  
+ ## Liscense
+  
+<span style="color: orange;">MIT License</span>
+  
+ &nbsp;
+  
 
-Watch README.md Generator Video
-
-[![Watch the video](https://static-s.aa-cdn.net/img/ios/1059854241/fed71d8194c9bdffd6d4edac1a13e517?v=1)](https://youtu.be/gB6FojzhS6k)
-
-    
- ### Liscense
-    
- MIT License
-
-
-
+  
  ## Table of Contents
-    
+  
 - [Description](#Description)
-    
+  
 - [Installation](#Installation)
-    
+  
 - [Usage](#Usage)
-    
-- [Contributors](#Contributors)
-    
-- [Test](#Test)
-    
+  
+- [Screen Shots](#ScreenShots)
+  
+- [Contributing](#Contributing)
+  
+- [Test](#Tests)
+  
+- [Author](#Author)
+  
 - [Contact](#Contact)
-
-    
+  ***
+  
  ## Description
+  
+<span style="color: orange;">hgjfkjkgfj</span>
+  
+ &nbsp;
+  
 
-    
- I built this app using NPM Inquirer, Javascript and Node. I also incorperated the use of 'file system' (fs). 
-
-    
+  
  ## Installation
+  
+<span style="color: orange;">npm i</span>
+  
+ &nbsp;
+  
 
-    
- npm i
-
-    
+  
  ## Usage
+  
+<span style="color: orange;">fugyyfjdfu</span>
+  
+ &nbsp;
+  
 
-    
- This application provides and easy step by step way to create a README.md file using the terminal.
+  
+ ## ScreenShots
+  
+<img width="914" alt="Screenshot 2021-02-05 192258" src="https://user-images.githubusercontent.com/74565661/107107271-241a7580-67fe-11eb-85e1-dc51055d376d.png">
+  
+ &nbsp;
+  
 
-    
- ## Screen Shots
+  
+ ## Contributing
+  
+<span style="color: orange;">* Fork the repo, then create your own branch: `git checkout -b my-idea`<br/>* Commit your changes: `git commit -m Awesome new idea`<br/>* Push to the branch: `git push origin my-idea`<br/>* Submit a pull request!</span>
+  
+ &nbsp;
+  
 
-
-![Screenshot 2020-12-18 202307](https://user-images.githubusercontent.com/74565661/102677129-eb9bdb00-416e-11eb-9bf2-fc381c3b72a4.png)
-
-
-
-
-![Screenshot 2020-12-18 202459](https://user-images.githubusercontent.com/74565661/102677167-27cf3b80-416f-11eb-9759-ce5ba68bd19a.png)
-
-
-
-
-![Screenshot 2020-12-18 202619](https://user-images.githubusercontent.com/74565661/102677191-50efcc00-416f-11eb-86e0-073bee07db03.png)
-
-    
- ## Contributors
-
-    
- Merlin Rock
-
-    
+  
  ## Tests
+  
+<span style="color: orange;">No test required</span>
+  
+ &nbsp;
+  
 
-    
-npm test
-
-    
+  
+ ## Author
+  
+[Merlin Rock](https://merlinrock.github.io/ResponsivePortfolio/)
+  
+ &nbsp;
+  
+ 
+  
  ## Contact
+  [Merlin Rock's gitHub profile](https://github.com/MerlinRock)
 
-    * [MerlinRock GitHub account](https://github.com/MerlinRock)
-
-    * [rock.merlin@yahoo.com]
-
-
-
+  <rock.merlin@yahoo.com>
 
   
